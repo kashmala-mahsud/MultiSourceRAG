@@ -1,0 +1,501 @@
+category,qtext,option_a,option_b,option_c,option_d,correct_option,marks
+Option 1,"[basic] In in web development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of lists?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of tuples?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of dictionaries?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of sets?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of strings?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of loops?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of lambda functions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of list comprehensions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of generators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of iterators?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of exceptions?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of try/except?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of modules?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of packages?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in real-world projects, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In for performance, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In for performance, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In for performance, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In for security, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In for security, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In for security, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In for maintainability, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In for maintainability, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In for maintainability, what is the main purpose of virtual environments?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in web development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in web development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in web development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in backend development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in backend development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[advanced] In in backend development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[basic] In in data processing, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[intermediate] In in data processing, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[advanced] In in data processing, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[basic] In in API development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[intermediate] In in API development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[advanced] In in API development, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[basic] In in database design, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[intermediate] In in database design, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[advanced] In in database design, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 1,"[basic] In in software testing, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 2,"[intermediate] In in software testing, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 3,"[advanced] In in software testing, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 4,"[basic] In in real-world projects, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1
+Option 5,"[intermediate] In in real-world projects, what is the main purpose of classes?",To style UI,To manage data/logic,To create images,To replace databases,B,1

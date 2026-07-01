@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RAG Assistant</title>
+  <link rel="stylesheet" href="{{ request.url_for('static', path='style.css') }}">
+</head>
+<body>
+<div class="app-shell">
+
+  <!-- ── Header ── -->
+  <header class="app-header">
+    <span class="header-icon">🤖</span>
+    <h1>RAG Assistant</h1>
+    <span class="header-badge">Llama 3 · Groq</span>
+  </header>
+
+  <!-- ── Sidebar ── -->
+  <aside class="sidebar">
+
+    <!-- Upload section -->
+    <div class="sidebar-section">
+      <div class="section-title">Upload Sources</div>
+
+      <!-- PDF drop zone -->
+      <div class="drop-zone" id="pdf-zone">
+        <input type="file" id="pdf-input" accept=".pdf"/>
+        <div class="drop-icon">📄</div>
+        <div class="drop-label"><span>Choose PDF</span> or drag it here</div>
+        <div class="drop-hint">Supported: .pdf</div>
+      </div>
+      <div id="pdf-pill"></div>
+
+      <!-- CSV drop zone -->
+      <div class="drop-zone" id="csv-zone">
+        <input type="file" id="csv-input" accept=".csv"/>
+        <div class="drop-icon">📊</div>
+        <div class="drop-label"><span>Choose CSV</span> or drag it here</div>
+        <div class="drop-hint">Supported: .csv</div>
+      </div>
+      <div id="csv-pill"></div>
+
+      <!-- URL input -->
+      <div class="url-input-wrap">
+        <span class="url-icon">🔗</span>
+        <input type="url" id="url-input" placeholder="Paste a webpage URL (optional)"/>
+      </div>
+
+      <button id="index-btn" onclick="startIndexing()">
+        <span id="index-btn-label">⚡ Index Documents</span>
+      </button>
+      <div class="status-line" id="status"></div>
+    </div>
+
+    <!-- Indexed sources list -->
+    <div class="sidebar-section" id="sources-section" style="display:none">
+      <div class="section-title">Indexed Sources</div>
+      <div id="sources-list"></div>
+    </div>
+
+  </aside>
+
+  <!-- ── Chat panel ── -->
+  <div class="chat-panel">
+    <div class="chat-area" id="chat-area">
+      <div class="empty-state" id="empty-state">
+        <div class="empty-icon">💬</div>
+        <h2>No documents yet</h2>
+        <p>Upload a PDF, CSV, or paste a URL on the left, then click "Index Documents" to begin.</p>
+      </div>
+    </div>
+
+    <div class="input-bar">
+      <textarea id="question" rows="1"
+        placeholder="Index your documents first, then ask a question…"
+        disabled></textarea>
+      <button id="send-btn" onclick="sendQuestion()" disabled title="Send (Enter)">&#10148;</button>
+    </div>
+    <div class="input-hint">Enter to send &nbsp;·&nbsp; Shift+Enter for new line</div>
+  </div>
+
+</div><!-- /app-shell -->
+
+<script>
+  let SESSION_ID = null;
+
+  /* ── Textarea auto-grow ── */
+  const ta = document.getElementById('question');
+  ta.addEventListener('input', () => {
+    ta.style.height = 'auto';
+    ta.style.height = Math.min(ta.scrollHeight, 130) + 'px';
+  });
+  ta.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendQuestion(); }
+  });
+
+  /* ── Drag-over styling ── */
+  ['pdf-zone','csv-zone'].forEach(id => {
+    const zone = document.getElementById(id);
+    zone.addEventListener('dragover',  e => { e.preventDefault(); zone.classList.add('dragover'); });
+    zone.addEventListener('dragleave', ()  => zone.classList.remove('dragover'));
+    zone.addEventListener('drop',      e => {
+      e.preventDefault(); zone.classList.remove('dragover');
+      const input = zone.querySelector('input[type="file"]');
+      if (e.dataTransfer.files.length) {
+        input.files = e.dataTransfer.files;
+        input.dispatchEvent(new Event('change'));
+      }
+    });
+  });
+
+  /* ── File pill rendering ── */
+  function renderPill(containerId, file, inputId) {
+    const wrap = document.getElementById(containerId);
+    if (!file) { wrap.innerHTML = ''; return; }
+    const icon = file.name.endsWith('.pdf') ? '📄' : '📊';
+    wrap.innerHTML = `
+      <div class="file-pill">
+        <span class="pill-icon">${icon}</span>
+        <span class="pill-name" title="${file.name}">${file.name}</span>
+        <button class="pill-remove" onclick="clearFile('${inputId}','${containerId}')" title="Remove">×</button>
+      </div>`;
+  }
+
+  document.getElementById('pdf-input').addEventListener('change', function() {
+    renderPill('pdf-pill', this.files[0], 'pdf-input');
+  });
+  document.getElementById('csv-input').addEventListener('change', function() {
+    renderPill('csv-pill', this.files[0], 'csv-input');
+  });
+
+  function clearFile(inputId, pillId) {
+    document.getElementById(inputId).value = '';
+    document.getElementById(pillId).innerHTML = '';
+  }
+
+  /* ── Status helper ── */
+  function setStatus(type, icon, msg) {
+    const s = document.getElementById('status');
+    s.className = 'status-line ' + type;
+    s.innerHTML = `<span>${icon}</span><span>${msg}</span>`;
+  }
+
+  /* ── Index documents ── */
+  async function startIndexing() {
+    const pdf  = document.getElementById('pdf-input').files[0];
+    const csv  = document.getElementById('csv-input').files[0];
+    const url  = document.getElementById('url-input').value.trim();
+
+    if (!pdf && !csv && !url) {
+      setStatus('error', '⚠️', 'Please add at least one PDF, CSV, or URL.');
+      return;
+    }
+
+    const btn   = document.getElementById('index-btn');
+    const label = document.getElementById('index-btn-label');
+    btn.disabled = true;
+    label.innerHTML = '<span class="spinner"></span> Indexing…';
+    setStatus('info', '⏳', 'Loading and indexing documents…');
+
+    const fd = new FormData();
+    if (pdf) fd.append('pdf', pdf);
+    if (csv) fd.append('csv', csv);
+    if (url) fd.append('url', url);
+
+    try {
+      const res  = await fetch('/upload', { method: 'POST', body: fd });
+      const data = await res.json();
+
+      if (!res.ok || data.error) {
+        setStatus('error', '❌', data.error || 'Indexing failed.');
+        return;
+      }
+
+      SESSION_ID = data.session_id;
+      setStatus('success', '✅', 'Ready — ' + data.sources.length + ' source(s) indexed.');
+      renderSourcesList(data.sources);
+      enableChat();
+
+    } catch (err) {
+      setStatus('error', '❌', 'Could not reach the server.');
+    } finally {
+      btn.disabled = false;
+      label.innerHTML = '⚡ Re-index Documents';
+    }
+  }
+
+  function renderSourcesList(sources) {
+    const section = document.getElementById('sources-section');
+    const list    = document.getElementById('sources-list');
+    section.style.display = 'block';
+    list.innerHTML = sources.map(s => {
+      const isPdf = s.endsWith('.pdf');
+      const isCsv = s.endsWith('.csv');
+      const type  = isPdf ? 'pdf' : isCsv ? 'csv' : 'url';
+      const icon  = isPdf ? '📄' : isCsv ? '📊' : '🔗';
+      const label = isPdf ? 'PDF' : isCsv ? 'CSV' : 'URL';
+      const name  = s.length > 30 ? s.slice(0, 28) + '…' : s;
+      return `<div class="source-item">
+        <span class="src-icon">${icon}</span>
+        <span class="src-name" title="${s}">${name}</span>
+        <span class="src-badge ${type}">${label}</span>
+      </div>`;
+    }).join('');
+  }
+
+  function enableChat() {
+    const empty = document.getElementById('empty-state');
+    if (empty) empty.remove();
+    ta.disabled = false;
+    ta.placeholder = 'Ask anything about your documents…';
+    document.getElementById('send-btn').disabled = false;
+    ta.focus();
+  }
+
+  /* ── Chat helpers ── */
+  function scrollBottom() {
+    const a = document.getElementById('chat-area');
+    a.scrollTop = a.scrollHeight;
+  }
+  function getTime() {
+    return new Date().toLocaleTimeString([], { hour:'2-digit', minute:'2-digit' });
+  }
+  function fmt(raw) {
+    return raw
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+      .replace(/`([^`]+)`/g,'<code>$1</code>')
+      .replace(/\n/g,'<br>');
+  }
+
+  function appendMessage(role, text, opts) {
+    const area = document.getElementById('chat-area');
+    const div  = document.createElement('div');
+    div.className = 'message ' + role;
+    div.innerHTML = `
+      <div class="avatar">${role === 'user' ? '🧑' : '🤖'}</div>
+      <div class="bubble"><span class="bubble-text">${fmt(text)}</span><div class="bubble-time">${getTime()}</div></div>`;
+    area.appendChild(div);
+    scrollBottom();
+    if (opts && opts.returnEl) return div.querySelector('.bubble');
+  }
+
+  function addTyping() {
+    const area = document.getElementById('chat-area');
+    const div  = document.createElement('div');
+    div.id = 'typing'; div.className = 'message bot';
+    div.innerHTML = `<div class="avatar">🤖</div>
+      <div class="bubble"><div class="typing-indicator">
+        <div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>
+      </div></div>`;
+    area.appendChild(div); scrollBottom();
+  }
+  function removeTyping() { const t = document.getElementById('typing'); if(t) t.remove(); }
+
+  function appendError(msg) {
+    const area = document.getElementById('chat-area');
+    const div  = document.createElement('div');
+    div.className = 'error-bubble';
+    div.textContent = '⚠️  ' + msg;
+    area.appendChild(div); scrollBottom();
+  }
+
+  /* ── Send question (streams tokens live instead of waiting for the full answer) ── */
+  async function sendQuestion() {
+    const q   = ta.value.trim();
+    const btn = document.getElementById('send-btn');
+    if (!q || !SESSION_ID) return;
+
+    appendMessage('user', q);
+    ta.value = ''; ta.style.height = 'auto';
+    btn.disabled = true; addTyping();
+
+    try {
+      const res = await fetch('/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: q, session_id: SESSION_ID }),
+      });
+
+      if (!res.ok) {
+        removeTyping();
+        let msg = 'Server error.';
+        try { msg = (await res.json()).detail || msg; } catch {}
+        appendError(msg);
+        return;
+      }
+
+      removeTyping();
+
+      const reader  = res.body.getReader();
+      const decoder = new TextDecoder();
+      let full = '';
+      let bubbleEl = null;
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        full += decoder.decode(value, { stream: true });
+
+        // Everything after this marker is trailing JSON metadata, not
+        // part of the visible answer -- strip it out before rendering.
+        const markerIdx = full.indexOf('<<<METRICS>>>');
+        const visible = markerIdx === -1 ? full : full.slice(0, markerIdx);
+
+        if (!bubbleEl) {
+          bubbleEl = appendMessage('bot', visible, { returnEl: true });
+        } else {
+          bubbleEl.querySelector('.bubble-text').innerHTML = fmt(visible);
+          scrollBottom();
+        }
+      }
+
+      // Pull the trailing metrics/trade-off info out, if present, and
+      // show a small badge under the finished answer.
+      const markerIdx = full.indexOf('<<<METRICS>>>');
+      if (markerIdx !== -1 && bubbleEl) {
+        try {
+          const meta = JSON.parse(full.slice(markerIdx + '<<<METRICS>>>'.length));
+          appendMetaBadge(bubbleEl, meta);
+        } catch {}
+      }
+
+    } catch {
+      removeTyping();
+      appendError('Could not reach the server. Is app.py running?');
+    } finally {
+      btn.disabled = false; ta.focus();
+    }
+  }
+
+  function appendMetaBadge(bubbleEl, meta) {
+    if (!meta || !meta.trade_off) return;
+    const badge = document.createElement('div');
+    badge.className = 'meta-badge';
+    const totalMs = meta.metrics && meta.metrics.latency ? meta.metrics.latency.total_ms : null;
+    badge.textContent = meta.trade_off + (totalMs ? `  ·  ${(totalMs/1000).toFixed(1)}s` : '');
+    bubbleEl.appendChild(badge);
+    scrollBottom();
+  }
+</script>
+</body>
+</html>
