@@ -24,7 +24,7 @@ A **Retrieval-Augmented Generation (RAG)** web application that lets users uploa
 ```
 3GenAIProj/
 ├── app.py                  # FastAPI app — all routes & metric assembly
-├── store_indexes.py        # Builds FAISS, Sentence-Window, KG indexes
+├── store_indexes.py        # Builds FAISS, Sentence-Window
 ├── template.py             # Utility to scaffold empty project files
 ├── requirements.txt
 ├── .env                    # API keys (never commit this)
