@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 RAG Assistant
 
 A **Retrieval-Augmented Generation (RAG)** web application that lets users upload their own PDF, CSV, or webpage URL, then ask questions about the content — powered by **Llama 3 (via Groq)** and a three-retriever pipeline with live latency/accuracy metrics.
@@ -288,3 +289,6 @@ Answer + Metrics returned to UI
 ## 📄 License
 
 This project is for educational and research purposes.
+=======
+# MultiSourceRAG
+>>>>>>> 7595e846e4b8066aee8c0d4a8bf9fa2c1a7706a2
