@@ -81,7 +81,6 @@ Create a `.env` file in the project root (or edit the existing one):
 
 ```env
 GROQ_API_KEY=your_groq_api_key_here
-FLASK_SECRET=any-random-string   # optional, used for session signing
 ```
 
 Get a free Groq API key at: https://console.groq.com
@@ -288,7 +287,4 @@ Answer + Metrics returned to UI
 
 ## 📄 License
 
-This project is for educational and research purposes.
-=======
-# MultiSourceRAG
->>>>>>> 7595e846e4b8066aee8c0d4a8bf9fa2c1a7706a2
+- This project is for educational and research purposes.
